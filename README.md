@@ -8,7 +8,7 @@
 
 
 # Backend
-- Se você tiver maior familiaridade com backend, ao invés de seguir as instruções de backend abaixo, você deve criar uma cópia da API apresentada, que salve dados em um banco de dados PostgreSQL, Mysql ou SqlServer;
+- Se você tiver maior familiaridade com backend, ao invés de seguir as instruções de frontend abaixo, você deve criar uma cópia da API apresentada, que persista dados em um banco de dados PostgreSQL, Mysql ou SqlServer;
 - Preocupe-se com desempenho, segurança e validação de dados;
 
 
