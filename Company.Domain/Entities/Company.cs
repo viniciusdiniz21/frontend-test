@@ -1,17 +1,16 @@
-﻿using System;
+﻿using Company.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Domain.Entities
+namespace CompanyApi.Domain.Entities
 {
-    public class Company
+    public class Company : Entity
     {
-        public int Id { get; set; }
         public string AvatarUrl { get; set; }
         public string NomeFantasia { get; set; }
         public int QtdeFuncionarios { get; set; }
-        public bool Active { get; set; }
     }
 }

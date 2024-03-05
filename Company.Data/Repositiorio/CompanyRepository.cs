@@ -1,12 +1,18 @@
-﻿using System;
+﻿using CompanyApi.Data.Configuration;
+using CompanyApi.Data.Interface;
+using CompanyApi.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Data.Repositiorio
+namespace CompanyApi.Data.Repositiorio
 {
-    internal class CompanyRepository
+    public class CompanyRepository : Repository<Company>, ICompanyRepository
     {
+        public CompanyRepository(ApplicationDbContext db) : base(db)
+        {
+        }
     }
 }
